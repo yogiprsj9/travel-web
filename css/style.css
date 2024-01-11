@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100vh;
+    outline: none;
+    border: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1035;
+    padding: 1.5rem;
+    border-bottom: 2px solid #0F1035;
+    position: fixed;
+    min-width: 100%;
+}
+
+.header > a {
+    color: #DCF2F1;
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 1.5rem
+}
+
+.header ul li a {
+    color: #DCF2F1;
+}
+
+.header ul li :hover {
+    color: brown;
+}
+
+.home {
+    background-image: url(/pict/bg-main.jpg);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .content {
+    padding: 17rem 7%;
+}
+
+.home .content h1 {
+    text-align: center;
+    color: #0F1035;
+}
+
+.home .content p {
+    text-align: start;
+    font-size: small;
+    margin-bottom: 1.5rem;
+    color: #E0F4FF;
+}
+
+.home .content p span {
+    color: #0F1035;
+}
+
+.home .content a {
+    color: aliceblue;
+    font-size: medium;
+    padding: 1rem 1.5rem;
+    background-color: #0F1035;
+    border-radius: 10px;
+}
+
+.destination {
+    background-color: #365486;
+    height: 100vh;
+    width: 100%;
+}
+
+.destination h1 {
+    text-align: center;
+    padding-top: 2rem;
+    color: #E0F4FF;
+}
+
+.destination p {
+    padding: 1rem 4rem;
+    text-align: center;
+    color: black;
+}
+
+.gambar {
+    display: flex;
+    background-color: #DCF2F1;
+    float: left;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.gambar .capt h2 {
+    text-align: start;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    color: #365486;
+}
+
+.gambar .capt > p {
+    padding-top: 0;
+    text-align: start;
+    padding-left: 3rem;
+}
+
+.gambar .capt > a {
+    background-color: #0F1035;
+    color: #DCF2F1;
+    margin-left: 25rem;
+    margin-bottom: 1rem;
+    padding: 6px 12px;
+}
+
+.gambar .img-thumbnail {
+    width: 25%;
+    padding: 1rem 0 0 4rem;
+}
+
+.bungkus {
+   background-color: #365486;
+    height: 100vh;
+}
+
+.bungkus .gal > h2 {
+    text-align: center;
+    padding-top: 25rem;
+    color: #E0F4FF;
+}
+
+.bungkus .gal > h2 span {
+    text-align: center;
+    padding-top: 25rem;
+    color: maroon;
+}
+
+.bungkus .gal > p {
+    padding: 1rem 6rem;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+.bungkus .poto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    height: auto;
+    background-color: #365486;
+    float: left;
+}
+
+.poto img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #365486;
+    padding: 10px;
+}
+
+.kontak {
+    background-color: #0F1035;
+}
+
+.kontak h1 {
+    text-align: center;
+    padding-top: 36rem;
+    color: #DCF2F1;
+}
+
+.lokasi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    background-color: #0F1035;
+}
+
+.lokasi iframe {
+    width: 100%;
+    height: 400px;
+    padding: 1rem 0 1rem 1rem;
+    border-radius: 8px;
+}
+
+.input {
+    width: 700px;
+    margin: auto;
+    background-color: #0F1035;
+}
+
+.input form {
+    display: grid;
+    gap: 15px;
+}
+
+.input label {
+    font-weight: bold;
+    color: #DCF2F1;
+    padding: 1rem 0 0 0;
+}
+
+.input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.input input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.input a {
+    background-color: #365486;
+    color: #DCF2F1;
+    padding: 10px 18px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
